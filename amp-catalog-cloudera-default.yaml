@@ -14,7 +14,7 @@ entries:
     model to see which factors in the data have the most influence on the churn
     probability.
   image_path: >-
-    https://github.com/cloudera/Applied-ML-Prototypes/master/images/churn.jpg
+    https://raw.githubusercontent.com/cloudera/Applied-ML-Prototypes/master/images/churn.jpg
   tags:
     - explainability
     - xgboost
@@ -33,7 +33,7 @@ entries:
     Model Building and Optimisation ML Model Training ML Model Serving Deploying
     an Application.
   image_path: >-
-    https://github.com/cloudera/Applied-ML-Prototypes/master/images/comingsoon/airline.jpg
+    https://raw.githubusercontent.com/cloudera/Applied-ML-Prototypes/master/images/comingsoon/airline.jpg
   tags:
     - xgboost
   git_url: 'https://github.com/fletchjeff/cml_flight_demo'
@@ -50,7 +50,7 @@ entries:
     launches an interactive visualization for exploring the quality of
     representations extracted using multiple model architectures.
   image_path: >-
-    https://github.com/cloudera/Applied-ML-Prototypes/master/images/imageanalysis.jpg
+    https://raw.githubusercontent.com/cloudera/Applied-ML-Prototypes/master/images/imageanalysis.jpg
   tags:
     - computer vision
     - images
@@ -70,7 +70,7 @@ entries:
     answering. The application interface integrates visualizations for
     explaining model behaviour and contextual query expansion.
   image_path: >-
-    https://github.com/cloudera/Applied-ML-Prototypes/master/images/comingsoon/neuralqa.jpg
+    https://raw.githubusercontent.com/cloudera/Applied-ML-Prototypes/master/images/comingsoon/neuralqa.jpg
   tags:
     - NLP
   git_url: 'https://github.com/fastforwardlabs/cml_neuralqa'
@@ -87,7 +87,7 @@ entries:
     probablistic forecast and interface for asking a probabilistic question
     against it.
   image_path: >-
-    https://github.com/cloudera/Applied-ML-Prototypes/master/images/comingsoon/sts.jpg
+    https://raw.githubusercontent.com/cloudera/Applied-ML-Prototypes/master/images/comingsoon/sts.jpg
   tags:
     - time series
   git_url: 'https://github.com/fastforwardlabs/structural-time-series'
@@ -103,7 +103,7 @@ entries:
     it includes two baselines (One Class SVM, PCA) and provides a frontend
     interface for exploring model results.
   image_path: >-
-    https://github.com/cloudera/Applied-ML-Prototypes/master/images/comingsoon/anomaly.jpg
+    https://raw.githubusercontent.com/cloudera/Applied-ML-Prototypes/master/images/comingsoon/anomaly.jpg
   tags:
     - anomaly detection
     - deep neural nets
@@ -125,7 +125,7 @@ entries:
     situation in which most measurements or events are normal, but rare outliers
     require attention.
   image_path: >-
-    https://github.com/cloudera/Applied-ML-Prototypes/master/images/comingsoon/fraud.jpg
+    https://raw.githubusercontent.com/cloudera/Applied-ML-Prototypes/master/images/comingsoon/fraud.jpg
   tags:
     - fraud detection
     - anomaly detection
@@ -144,7 +144,7 @@ entries:
     that will send a test sentence to either of the deployed models and show the
     predicted sentiment result.
   image_path: >-
-    https://github.com/cloudera/Applied-ML-Prototypes/master/images/comingsoon/sentiment.jpg
+    https://raw.githubusercontent.com/cloudera/Applied-ML-Prototypes/master/images/comingsoon/sentiment.jpg
   tags:
     - Sentiment analysis
     - Spark
@@ -160,7 +160,7 @@ entries:
     This project provides a discussion on how Meta Learning can be applied to
     problem spaces characterized by limited data.
   image_path: >-
-    https://github.com/cloudera/Applied-ML-Prototypes/master/images/comingsoon/metalearning.jpg
+    https://raw.githubusercontent.com/cloudera/Applied-ML-Prototypes/master/images/comingsoon/metalearning.jpg
   tags:
     - meta learning
     - pytorch
