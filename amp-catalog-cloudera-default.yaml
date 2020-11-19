@@ -1,11 +1,11 @@
-name: Fast Forward Labs
+name: Cloudera
 
 entries:
 - title: Churn Modeling with XGBoost
   label: churn
   short_description: Build an XGBoost model to predict churn using customer telco data.
   long_description: >-
-    This project demonstrates how to build a classifier model (Logistic
+    This project demonstrates how to build  classifier models (Logistic
     Regression, Xgboost) to predict the churn probability for a group of
     customers from a telecoms company. In addition, the model can then be
     interpreted using LIME. Both the classifier  and LIME models are then
@@ -18,9 +18,8 @@ entries:
   tags:
     - explainability
     - xgboost
-  git_url: 'https://github.com/fastforwardlabs/cml_churn_demo_mlops'
-  is_prototype: true
-  coming_soon: true
+  git_url: 'https://github.com/cloudera/CML_AMP_Churn_Prediction'
+  is_prototype: true 
 
 - title: Airline Delay Prediction
   label: airline
@@ -55,9 +54,8 @@ entries:
     - computer vision
     - images
     - deep neural nets
-  git_url: 'https://github.com/fastforwardlabs/imageanalysis_cml'
-  is_prototype: true
-  coming_soon: false
+  git_url: 'https://github.com/cloudera/CML_AMP_Image_Analysis'
+  is_prototype: true 
 
 - title: Neural Question Answering
   label: neuralqa
