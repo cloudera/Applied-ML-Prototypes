@@ -1,166 +1,165 @@
 name: Cloudera
 
 entries:
-- title: Churn Modeling with XGBoost
-  label: churn
-  short_description: Build an XGBoost model to predict churn using customer telco data.
-  long_description: >-
-    This project demonstrates how to build  classifier models (Logistic
-    Regression, Xgboost) to predict the churn probability for a group of
-    customers from a telecoms company. In addition, the model can then be
-    interpreted using LIME. Both the classifier  and LIME models are then
-    deployed using CML's real-time model deployment capability. Finally, a basic
-    flask application is deployed that will let you interact with the real-time
-    model to see which factors in the data have the most influence on the churn
-    probability.
-  image_path: >-
-    https://raw.githubusercontent.com/cloudera/Applied-ML-Prototypes/master/images/churn.jpg
-  tags:
-    - explainability
-    - xgboost
-  git_url: 'https://github.com/cloudera/CML_AMP_Churn_Prediction'
-  is_prototype: true 
+  - title: Churn Modeling with scikit-learn
+    label: churn
+    short_description: Build an scikit-learn model to predict churn using customer telco data.
+    long_description: >-
+      This project demonstrates how to build a classifier model (Logistic Regression) to predict the churn probability
+      for a group of customers from a telecom company. In addition, the model can then be interpreted using LIME. Both
+      the classifier and LIME models are then deployed using CML's real-time model deployment capability. Finally, a basic 
+      flask application is deployed that will let you interact with the real-time model to see which factors in the data 
+      have the most influence on the churn probability.
+    image_path: >-
+      https://raw.githubusercontent.com/cloudera/Applied-ML-Prototypes/master/images/churn.jpg
+    tags:
+      - churn prediction
+      - explainability
+      - scikit-learn
+      - lime
+    git_url: "https://github.com/cloudera/CML_AMP_Churn_Prediction"
+    is_prototype: true
 
-- title: Airline Delay Prediction
-  label: airline
-  short_description: Flight analytics and cancellation prediction with pyspark and sparklyr.
-  long_description: >-
-    This project creates an API that can predict the likelihood of a flight
-    being cancelled based on historic flight data. The original dataset comes
-    from Kaggle. The project shows both the pyspark and sparklyr implementations
-    and covers: Importing Data Data Science and Exploration Data Engineering ML
-    Model Building and Optimisation ML Model Training ML Model Serving Deploying
-    an Application.
-  image_path: >-
-    https://raw.githubusercontent.com/cloudera/Applied-ML-Prototypes/master/images/comingsoon/airline.jpg
-  tags:
-    - xgboost
-  git_url: 'https://github.com/fletchjeff/cml_flight_demo'
-  coming_soon: true
+  - title: Airline Delay Prediction
+    label: airline
+    short_description: Flight analytics and cancellation prediction with pyspark and sparklyr.
+    long_description: >-
+      This project creates an API that can predict the likelihood of a flight
+      being cancelled based on historic flight data. The original dataset comes
+      from Kaggle. The project shows both the pyspark and sparklyr implementations
+      and covers: Importing Data Data Science and Exploration Data Engineering ML
+      Model Building and Optimisation ML Model Training ML Model Serving Deploying
+      an Application.
+    image_path: >-
+      https://raw.githubusercontent.com/cloudera/Applied-ML-Prototypes/master/images/comingsoon/airline.jpg
+    tags:
+      - xgboost
+    git_url: "https://github.com/fletchjeff/cml_flight_demo"
+    coming_soon: true
 
-- title: Deep Learning for Image Analysis
-  label: image-analysis
-  short_description: Build a semantic search application with deep learning models.
-  long_description: >-
-    This project demonstrates how to build a scalable semantic search solution
-    on a dataset of images. Pretrained convolutional neural networks are used to
-    extract semantically meaningful representations, which are then indexed
-    using the FAISS library for scalable retrieval. Finally, the project
-    launches an interactive visualization for exploring the quality of
-    representations extracted using multiple model architectures.
-  image_path: >-
-    https://raw.githubusercontent.com/cloudera/Applied-ML-Prototypes/master/images/imageanalysis.jpg
-  tags:
-    - computer vision
-    - images
-    - deep neural nets
-  git_url: 'https://github.com/cloudera/CML_AMP_Image_Analysis'
-  is_prototype: true 
+  - title: Deep Learning for Image Analysis
+    label: image-analysis
+    short_description: Build a semantic search application with deep learning models.
+    long_description: >-
+      This project demonstrates how to build a scalable semantic search solution
+      on a dataset of images. Pretrained convolutional neural networks are used to
+      extract semantically meaningful representations, which are then indexed
+      using the FAISS library for scalable retrieval. Finally, the project
+      launches an interactive visualization for exploring the quality of
+      representations extracted using multiple model architectures.
+    image_path: >-
+      https://raw.githubusercontent.com/cloudera/Applied-ML-Prototypes/master/images/imageanalysis.jpg
+    tags:
+      - computer vision
+      - images
+      - deep neural nets
+    git_url: "https://github.com/cloudera/CML_AMP_Image_Analysis"
+    is_prototype: true
 
-- title: Neural Question Answering
-  label: neuralqa
-  short_description: >-
-    Launch a visual interface for neural question answering. Supports BERT
-    models, information retrieval methods (ElasticSearch, Solr).
-  long_description: >-
-    This project demonstrates how the Cloudera Fast Forward Labs NeuralQA
-    library can be used to bootstrap an application for neural question
-    answering. The application interface integrates visualizations for
-    explaining model behaviour and contextual query expansion.
-  image_path: >-
-    https://raw.githubusercontent.com/cloudera/Applied-ML-Prototypes/master/images/comingsoon/neuralqa.jpg
-  tags:
-    - NLP
-  git_url: 'https://github.com/fastforwardlabs/cml_neuralqa'
-  is_prototype: true
-  coming_soon: true
+  - title: Neural Question Answering
+    label: neuralqa
+    short_description: >-
+      Launch a visual interface for neural question answering. Supports BERT
+      models, information retrieval methods (ElasticSearch, Solr).
+    long_description: >-
+      This project demonstrates how the Cloudera Fast Forward Labs NeuralQA
+      library can be used to bootstrap an application for neural question
+      answering. The application interface integrates visualizations for
+      explaining model behaviour and contextual query expansion.
+    image_path: >-
+      https://raw.githubusercontent.com/cloudera/Applied-ML-Prototypes/master/images/comingsoon/neuralqa.jpg
+    tags:
+      - NLP
+    git_url: "https://github.com/fastforwardlabs/cml_neuralqa"
+    is_prototype: true
+    coming_soon: true
 
-- title: Structural Time Series
-  label: structural-time
-  short_description: Applying Bayesian STS to California hourly electricity demand data.
-  long_description: >-
-    This project provides an example application of generalized additive models
-    (via the Prophet library) to California hourly electricity demand data. The
-    primary output of this repository is a small application exposing a
-    probablistic forecast and interface for asking a probabilistic question
-    against it.
-  image_path: >-
-    https://raw.githubusercontent.com/cloudera/Applied-ML-Prototypes/master/images/comingsoon/sts.jpg
-  tags:
-    - time series
-  git_url: 'https://github.com/fastforwardlabs/structural-time-series'
-  coming_soon: true
+  - title: Structural Time Series
+    label: structural-time
+    short_description: Applying Bayesian STS to California hourly electricity demand data.
+    long_description: >-
+      This project provides an example application of generalized additive models
+      (via the Prophet library) to California hourly electricity demand data. The
+      primary output of this repository is a small application exposing a
+      probablistic forecast and interface for asking a probabilistic question
+      against it.
+    image_path: >-
+      https://raw.githubusercontent.com/cloudera/Applied-ML-Prototypes/master/images/comingsoon/sts.jpg
+    tags:
+      - time series
+    git_url: "https://github.com/fastforwardlabs/structural-time-series"
+    coming_soon: true
 
-- title: Deep Learning for Anomaly Detection
-  label: anomaly-detection
-  short_description: Build a semantic search application with deep learning models.
-  long_description: >-
-    This project includes implementations of several neural networks
-    (Autoencoder, Variational Autoencoder, Bidirectional GAN, Sequence Models)
-    applied to the task of anomaly detection in Tensorflow 2.0. For comparison,
-    it includes two baselines (One Class SVM, PCA) and provides a frontend
-    interface for exploring model results.
-  image_path: >-
-    https://raw.githubusercontent.com/cloudera/Applied-ML-Prototypes/master/images/comingsoon/anomaly.jpg
-  tags:
-    - anomaly detection
-    - deep neural nets
-    - autoencoder
-    - gan
-  git_url: 'https://github.com/fastforwardlabs/deepad'
-  is_prototype: true
-  coming_soon: true
+  - title: Deep Learning for Anomaly Detection
+    label: anomaly-detection
+    short_description: Build a semantic search application with deep learning models.
+    long_description: >-
+      This project includes implementations of several neural networks
+      (Autoencoder, Variational Autoencoder, Bidirectional GAN, Sequence Models)
+      applied to the task of anomaly detection in Tensorflow 2.0. For comparison,
+      it includes two baselines (One Class SVM, PCA) and provides a frontend
+      interface for exploring model results.
+    image_path: >-
+      https://raw.githubusercontent.com/cloudera/Applied-ML-Prototypes/master/images/comingsoon/anomaly.jpg
+    tags:
+      - anomaly detection
+      - deep neural nets
+      - autoencoder
+      - gan
+    git_url: "https://github.com/fastforwardlabs/deepad"
+    is_prototype: true
+    coming_soon: true
 
-- title: Fraud Detection
-  label: fraud-detection
-  short_description: Build a semantic search application with deep learning models.
-  long_description: >-
-    In this project, a fictional credit card company uses machine learning to
-    identify fraudulent transactions that should be blocked or investigated.
-    Although the features in this dataset are abstract, in principle, post hoc
-    analysis could also surface fraud hotspots that could be communicated as an
-    alert to customers. The techniques in this use case are applicable to any
-    situation in which most measurements or events are normal, but rare outliers
-    require attention.
-  image_path: >-
-    https://raw.githubusercontent.com/cloudera/Applied-ML-Prototypes/master/images/comingsoon/fraud.jpg
-  tags:
-    - fraud detection
-    - anomaly detection
-  git_url: 'https://github.com/fastforwardlabs/cml_fraud_demo'
-  coming_soon: true
+  - title: Fraud Detection
+    label: fraud-detection
+    short_description: Build a semantic search application with deep learning models.
+    long_description: >-
+      In this project, a fictional credit card company uses machine learning to
+      identify fraudulent transactions that should be blocked or investigated.
+      Although the features in this dataset are abstract, in principle, post hoc
+      analysis could also surface fraud hotspots that could be communicated as an
+      alert to customers. The techniques in this use case are applicable to any
+      situation in which most measurements or events are normal, but rare outliers
+      require attention.
+    image_path: >-
+      https://raw.githubusercontent.com/cloudera/Applied-ML-Prototypes/master/images/comingsoon/fraud.jpg
+    tags:
+      - fraud detection
+      - anomaly detection
+    git_url: "https://github.com/fastforwardlabs/cml_fraud_demo"
+    coming_soon: true
 
-- title: Sentiment Analysis with Sparklyr and Tensorflow
-  label: sentiment-analysis
-  short_description: Build R and Python models for sentiment analysis with Spark.
-  long_description: >-
-    This project builds two different Sentiment Analysis models. One model is
-    based on text from the Simpsons TV show available on Kaggle here and uses R
-    code (specifically Sparklyr) to train the model. The other model is based on
-    the Sentiment 140 dataset, also available on kaggle here and uses Python
-    Code (specifically Tensorflow with GPU). The end result is an application
-    that will send a test sentence to either of the deployed models and show the
-    predicted sentiment result.
-  image_path: >-
-    https://raw.githubusercontent.com/cloudera/Applied-ML-Prototypes/master/images/comingsoon/sentiment.jpg
-  tags:
-    - Sentiment analysis
-    - Spark
-    - R
-    - Python
-  git_url: 'https://github.com/fastforwardlabs/cml_sentiment_analysis'
-  coming_soon: true
+  - title: Sentiment Analysis with Sparklyr and Tensorflow
+    label: sentiment-analysis
+    short_description: Build R and Python models for sentiment analysis with Spark.
+    long_description: >-
+      This project builds two different Sentiment Analysis models. One model is
+      based on text from the Simpsons TV show available on Kaggle here and uses R
+      code (specifically Sparklyr) to train the model. The other model is based on
+      the Sentiment 140 dataset, also available on kaggle here and uses Python
+      Code (specifically Tensorflow with GPU). The end result is an application
+      that will send a test sentence to either of the deployed models and show the
+      predicted sentiment result.
+    image_path: >-
+      https://raw.githubusercontent.com/cloudera/Applied-ML-Prototypes/master/images/comingsoon/sentiment.jpg
+    tags:
+      - Sentiment analysis
+      - Spark
+      - R
+      - Python
+    git_url: "https://github.com/fastforwardlabs/cml_sentiment_analysis"
+    coming_soon: true
 
-- title: Meta Learning
-  label: meta
-  short_description: Implementing Meta Learning in Pytorch.
-  long_description: >-
-    This project provides a discussion on how Meta Learning can be applied to
-    problem spaces characterized by limited data.
-  image_path: >-
-    https://raw.githubusercontent.com/cloudera/Applied-ML-Prototypes/master/images/comingsoon/metalearning.jpg
-  tags:
-    - meta learning
-    - pytorch
-  git_url: 'https://github.com/fastforwardlabs/learning-to-learn'
-  coming_soon: true
+  - title: Meta Learning
+    label: meta
+    short_description: Implementing Meta Learning in Pytorch.
+    long_description: >-
+      This project provides a discussion on how Meta Learning can be applied to
+      problem spaces characterized by limited data.
+    image_path: >-
+      https://raw.githubusercontent.com/cloudera/Applied-ML-Prototypes/master/images/comingsoon/metalearning.jpg
+    tags:
+      - meta learning
+      - pytorch
+    git_url: "https://github.com/fastforwardlabs/learning-to-learn"
+    coming_soon: true
