@@ -5,7 +5,7 @@ entries:
     label: churn
     short_description: Build an scikit-learn model to predict churn using customer telco data.
     long_description: >-
-      This project demonstrates how to build a classifier model (Logistic Regression) to predict the churn probability
+      This project demonstrates how to build a logistic regression classifier to predict the churn probability
       for a group of customers from a telecom company. In addition, the model can then be interpreted using LIME. Both
       the classifier and LIME models are then deployed using CML's real-time model deployment capability. Finally, a basic 
       flask application is deployed that will let you interact with the real-time model to see which factors in the data 
