@@ -2,22 +2,95 @@ name: Cloudera
 
 entries:
   - title: Churn Modeling with scikit-learn
-    label: churn
+    label: churn-prediction
     short_description: Build an scikit-learn model to predict churn using customer telco data.
     long_description: >-
-      This project demonstrates how to build a logistic regression classifier to predict the churn probability
-      for a group of customers from a telecom company. In addition, the model can then be interpreted using LIME. Both
-      the classifier and LIME models are then deployed using CML's real-time model deployment capability. Finally, a basic 
-      flask application is deployed that will let you interact with the real-time model to see which factors in the data 
-      have the most influence on the churn probability.
+      This project demonstrates how to build a logistic regression classification model to predict the probability 
+      that a group of customers will churn from a fictitious telecommunications company. In addition, the model is 
+      interpreted using a technique called Local Interpretable Model-agnostic Explanations (LIME). Both the logistic 
+      regression and LIME models are deployed using CML's real-time model deployment capability and interact with a 
+      basic Flask-based web application.
     image_path: >-
       https://raw.githubusercontent.com/cloudera/Applied-ML-Prototypes/master/images/churn.jpg
     tags:
-      - churn prediction
-      - explainability
-      - scikit-learn
-      - lime
+      - Churn Prediction
+      - Logistic Regression
+      - Explainability
+      - Lime
     git_url: "https://github.com/cloudera/CML_AMP_Churn_Prediction"
+    is_prototype: true
+
+  - title: Deep Learning for Image Analysis
+    label: image-analysis
+    short_description: Build a semantic search application with deep learning models.
+    long_description: >-
+      This project demonstrates how to build a scalable semantic search solution
+      on a dataset of images. Pretrained convolutional neural networks are used to
+      extract semantically meaningful representations, which are then indexed
+      using the FAISS library for scalable retrieval. Finally, the project
+      launches an interactive visualization for exploring the quality of
+      representations extracted using multiple model architectures.
+    image_path: >-
+      https://raw.githubusercontent.com/cloudera/Applied-ML-Prototypes/master/images/imageanalysis.jpg
+    tags:
+      - Computer Vision
+      - Image Analysis
+      - Semantic Search
+    git_url: "https://github.com/cloudera/CML_AMP_Image_Analysis"
+    is_prototype: true
+
+  - title: Deep Learning for Anomaly Detection
+    label: anomaly-detection
+    short_description: Apply modern, deep learning techniques for anomaly detection to identify network intrusions.
+    long_description: >-
+      This project includes implementations of several neural networks
+      (Autoencoder, Variational Autoencoder, Bidirectional GAN, Sequence Models)
+      applied to the task of anomaly detection in Tensorflow 2.0. For comparison,
+      it includes two baselines (One Class SVM, PCA) and provides a frontend
+      interface for exploring model results.
+    image_path: >-
+      https://raw.githubusercontent.com/cloudera/Applied-ML-Prototypes/master/images/anomaly.jpg
+    tags:
+      - Anomaly Detection
+      - Tensorflow
+      - Autoencoder
+      - GAN
+    git_url: "https://github.com/cloudera/CML_AMP_Anomaly_Detection"
+    is_prototype: true
+
+  - title: NeuralQA
+    label: neuralqa
+    short_description: >-
+      Launch a visual interface for question answering that supports BERT models and information retrieval methods.
+    long_description: >-
+      This project demonstrates how the Cloudera Fast Forward Labs NeuralQA
+      library can be used to bootstrap an application for extractive question
+      answering. The application interface integrates visualizations for
+      explaining model behaviour and contextual query expansion.
+    image_path: >-
+      https://raw.githubusercontent.com/cloudera/Applied-ML-Prototypes/master/images/neuralqa.jpg
+    tags:
+      - Question Answering
+      - BERT
+      - NLP
+    git_url: "https://github.com/cloudera/CML_AMP_NeuralQA"
+    is_prototype: true
+
+  - title: Structural Time Series
+    label: structural-time-series
+    short_description: Applying a structural time series approach to California hourly electricity demand data.
+    long_description: >-
+      This project provides an example application of a structural approach to time series via 
+      generalized additive models (with the Prophet library) to California hourly electricity demand 
+      data. The primary output of this repository is a small application exposing a probablistic 
+      forecast and interface for asking a probabilistic questions against it.
+    image_path: >-
+      https://raw.githubusercontent.com/cloudera/Applied-ML-Prototypes/master/images/sts.jpg
+    tags:
+      - Time Series
+      - Prophet
+      - Demand Forcasting
+    git_url: "https://github.com/cloudera/CML_AMP_Structural_Time_Series"
     is_prototype: true
 
   - title: Airline Delay Prediction
@@ -35,79 +108,6 @@ entries:
     tags:
       - xgboost
     git_url: "https://github.com/fletchjeff/cml_flight_demo"
-    coming_soon: true
-
-  - title: Deep Learning for Image Analysis
-    label: image-analysis
-    short_description: Build a semantic search application with deep learning models.
-    long_description: >-
-      This project demonstrates how to build a scalable semantic search solution
-      on a dataset of images. Pretrained convolutional neural networks are used to
-      extract semantically meaningful representations, which are then indexed
-      using the FAISS library for scalable retrieval. Finally, the project
-      launches an interactive visualization for exploring the quality of
-      representations extracted using multiple model architectures.
-    image_path: >-
-      https://raw.githubusercontent.com/cloudera/Applied-ML-Prototypes/master/images/imageanalysis.jpg
-    tags:
-      - computer vision
-      - images
-      - deep neural nets
-    git_url: "https://github.com/cloudera/CML_AMP_Image_Analysis"
-    is_prototype: true
-
-  - title: Neural Question Answering
-    label: neuralqa
-    short_description: >-
-      Launch a visual interface for neural question answering. Supports BERT
-      models, information retrieval methods (ElasticSearch, Solr).
-    long_description: >-
-      This project demonstrates how the Cloudera Fast Forward Labs NeuralQA
-      library can be used to bootstrap an application for neural question
-      answering. The application interface integrates visualizations for
-      explaining model behaviour and contextual query expansion.
-    image_path: >-
-      https://raw.githubusercontent.com/cloudera/Applied-ML-Prototypes/master/images/comingsoon/neuralqa.jpg
-    tags:
-      - NLP
-    git_url: "https://github.com/fastforwardlabs/cml_neuralqa"
-    is_prototype: true
-    coming_soon: true
-
-  - title: Structural Time Series
-    label: structural-time
-    short_description: Applying Bayesian STS to California hourly electricity demand data.
-    long_description: >-
-      This project provides an example application of generalized additive models
-      (via the Prophet library) to California hourly electricity demand data. The
-      primary output of this repository is a small application exposing a
-      probablistic forecast and interface for asking a probabilistic question
-      against it.
-    image_path: >-
-      https://raw.githubusercontent.com/cloudera/Applied-ML-Prototypes/master/images/comingsoon/sts.jpg
-    tags:
-      - time series
-    git_url: "https://github.com/fastforwardlabs/structural-time-series"
-    coming_soon: true
-
-  - title: Deep Learning for Anomaly Detection
-    label: anomaly-detection
-    short_description: Build a semantic search application with deep learning models.
-    long_description: >-
-      This project includes implementations of several neural networks
-      (Autoencoder, Variational Autoencoder, Bidirectional GAN, Sequence Models)
-      applied to the task of anomaly detection in Tensorflow 2.0. For comparison,
-      it includes two baselines (One Class SVM, PCA) and provides a frontend
-      interface for exploring model results.
-    image_path: >-
-      https://raw.githubusercontent.com/cloudera/Applied-ML-Prototypes/master/images/comingsoon/anomaly.jpg
-    tags:
-      - anomaly detection
-      - deep neural nets
-      - autoencoder
-      - gan
-    git_url: "https://github.com/fastforwardlabs/deepad"
-    is_prototype: true
     coming_soon: true
 
   - title: Fraud Detection
