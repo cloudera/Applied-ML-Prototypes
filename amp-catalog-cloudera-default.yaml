@@ -122,7 +122,7 @@ entries:
       https://raw.githubusercontent.com/cloudera/Applied-ML-Prototypes/master/images/comingsoon/airline-delay-prediction.jpg
     tags:
       - xgboost
-    git_url: "https://github.com/fletchjeff/cml_flight_demo"
+    git_url: "https://github.com/cloudera/CML_AMP_Airline_Delay_Prediction.git"
     coming_soon: true
 
   - title: Fraud Detection
