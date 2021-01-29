@@ -11,7 +11,7 @@ entries:
       regression and LIME models are deployed using CML's real-time model deployment capability and interact with a 
       basic Flask-based web application.
     image_path: >-
-      https://raw.githubusercontent.com/cloudera/Applied-ML-Prototypes/master/images/churn.jpg
+      https://raw.githubusercontent.com/cloudera/Applied-ML-Prototypes/master/images/churn-prediction.jpg
     tags:
       - Churn Prediction
       - Logistic Regression
@@ -31,7 +31,7 @@ entries:
       launches an interactive visualization for exploring the quality of
       representations extracted using multiple model architectures.
     image_path: >-
-      https://raw.githubusercontent.com/cloudera/Applied-ML-Prototypes/master/images/imageanalysis.jpg
+      https://raw.githubusercontent.com/cloudera/Applied-ML-Prototypes/master/images/image-analysis.jpg
     tags:
       - Computer Vision
       - Image Analysis
@@ -49,7 +49,7 @@ entries:
       it includes two baselines (One Class SVM, PCA) and provides a frontend
       interface for exploring model results.
     image_path: >-
-      https://raw.githubusercontent.com/cloudera/Applied-ML-Prototypes/master/images/anomaly.jpg
+      https://raw.githubusercontent.com/cloudera/Applied-ML-Prototypes/master/images/anomaly-detection.jpg
     tags:
       - Anomaly Detection
       - Tensorflow
@@ -85,7 +85,7 @@ entries:
       data. The primary output of this repository is a small application exposing a probablistic 
       forecast and interface for asking a probabilistic questions against it.
     image_path: >-
-      https://raw.githubusercontent.com/cloudera/Applied-ML-Prototypes/master/images/sts.jpg
+      https://raw.githubusercontent.com/cloudera/Applied-ML-Prototypes/master/images/structural-time-series.jpg
     tags:
       - Time Series
       - Prophet
@@ -93,9 +93,24 @@ entries:
     git_url: "https://github.com/cloudera/CML_AMP_Structural_Time_Series"
     is_prototype: true
 
+  - title: Analyzing News Headlines with SpaCy
+    label: spacy-entity-extraction
+    short_description: Notebook demonstrating entity extraction on headlines with SpaCy.
+    long_description: >-
+      This project is a single notebook that demonstrates extracting named entities from Reuters news headlines with spaCy. 
+      It provides a few example downstream use cases.
+    image_path: >-
+      https://raw.githubusercontent.com/cloudera/Applied-ML-Prototypes/master/images/spacy-entity-extraction.png
+    tags:
+      - SpaCy
+      - NLP
+      - Named Entity Recognition
+    git_url: "https://github.com/cloudera/CML_AMP_SpaCy_Entity_Extraction.git"
+    is_prototype: true
+
   - title: Airline Delay Prediction
-    label: airline
-    short_description: Flight analytics and cancellation prediction with pyspark and sparklyr.
+    label: airline-delay-prediction
+    short_description: Perform flight analytics and build an XGBoost model to predict flight delays.
     long_description: >-
       This project creates an API that can predict the likelihood of a flight
       being cancelled based on historic flight data. The original dataset comes
@@ -104,7 +119,7 @@ entries:
       Model Building and Optimisation ML Model Training ML Model Serving Deploying
       an Application.
     image_path: >-
-      https://raw.githubusercontent.com/cloudera/Applied-ML-Prototypes/master/images/comingsoon/airline.jpg
+      https://raw.githubusercontent.com/cloudera/Applied-ML-Prototypes/master/images/comingsoon/airline-delay-prediction.jpg
     tags:
       - xgboost
     git_url: "https://github.com/fletchjeff/cml_flight_demo"
@@ -112,54 +127,17 @@ entries:
 
   - title: Fraud Detection
     label: fraud-detection
-    short_description: Build a semantic search application with deep learning models.
+    short_description: Build a model in Pytorch to detect fraudulent credit card transactions.
     long_description: >-
-      In this project, a fictional credit card company uses machine learning to
-      identify fraudulent transactions that should be blocked or investigated.
-      Although the features in this dataset are abstract, in principle, post hoc
-      analysis could also surface fraud hotspots that could be communicated as an
-      alert to customers. The techniques in this use case are applicable to any
-      situation in which most measurements or events are normal, but rare outliers
+      In this project, a fictional credit card company uses machine learning to identify fraudulent transactions 
+      that should be blocked or investigated. Although the features in this dataset are abstract, in principle, post 
+      hoc analysis could also surface fraud hotspots that could be communicated as an alert to customers. The techniques in 
+      this use case are applicable to any situation in which most measurements or events are normal, but rare outliers 
       require attention.
     image_path: >-
       https://raw.githubusercontent.com/cloudera/Applied-ML-Prototypes/master/images/comingsoon/fraud.jpg
     tags:
-      - fraud detection
-      - anomaly detection
+      - Fraud Detection
+      - Anomaly Detection
     git_url: "https://github.com/fastforwardlabs/cml_fraud_demo"
-    coming_soon: true
-
-  - title: Sentiment Analysis with Sparklyr and Tensorflow
-    label: sentiment-analysis
-    short_description: Build R and Python models for sentiment analysis with Spark.
-    long_description: >-
-      This project builds two different Sentiment Analysis models. One model is
-      based on text from the Simpsons TV show available on Kaggle here and uses R
-      code (specifically Sparklyr) to train the model. The other model is based on
-      the Sentiment 140 dataset, also available on kaggle here and uses Python
-      Code (specifically Tensorflow with GPU). The end result is an application
-      that will send a test sentence to either of the deployed models and show the
-      predicted sentiment result.
-    image_path: >-
-      https://raw.githubusercontent.com/cloudera/Applied-ML-Prototypes/master/images/comingsoon/sentiment.jpg
-    tags:
-      - Sentiment analysis
-      - Spark
-      - R
-      - Python
-    git_url: "https://github.com/fastforwardlabs/cml_sentiment_analysis"
-    coming_soon: true
-
-  - title: Meta Learning
-    label: meta
-    short_description: Implementing Meta Learning in Pytorch.
-    long_description: >-
-      This project provides a discussion on how Meta Learning can be applied to
-      problem spaces characterized by limited data.
-    image_path: >-
-      https://raw.githubusercontent.com/cloudera/Applied-ML-Prototypes/master/images/comingsoon/metalearning.jpg
-    tags:
-      - meta learning
-      - pytorch
-    git_url: "https://github.com/fastforwardlabs/learning-to-learn"
     coming_soon: true
