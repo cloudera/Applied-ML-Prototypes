@@ -108,6 +108,69 @@ entries:
     git_url: "https://github.com/cloudera/CML_AMP_SpaCy_Entity_Extraction.git"
     is_prototype: true
 
+  - title: Deep Learning for Question Answering
+    label: question-answering
+    short_description: Explore an emerging NLP capability with WikiQA, an automated question answering system built on top of Wikipedia.
+    long_description: >-
+      This project allows users to explore the task of question answering from several angles. First, users can interact with a real QA 
+      system, in which open questions are answered with snippets found in Wikipedia articles. Next, users can explore an app that showcases 
+      the types of models that make QA systems possible. Finally, users can learn and visualize the data structures required for training 
+      and evaluating those models.  
+    image_path: >-
+      https://raw.githubusercontent.com/cloudera/Applied-ML-Prototypes/master/images/question-answering.png
+    tags:
+      - Automated Question Answering
+      - Extractive Question Answering
+      - BERT
+      - NLP
+    git_url: "https://github.com/cloudera/CML_AMP_Question_Answering.git"
+    is_prototype: true
+
+  - title: Explaining Models with LIME and SHAP
+    label: explainability-lime-shap
+    short_description: Learn how to explain ML models using LIME and SHAP.
+    long_description: >-
+      This projects provides a notebook on how to explain machine learning models using tools such as SHAP and LIME. It explores 
+      concepts such as global and local explanations, illustrated with six different models - Naive Bayes, Logistic Regression, 
+      Decision Tree, Random Forest, Gradient Boosted Tree, and a Multilayer Perceptron. It also discusses best practices for debugging 
+      explanations as well as limitations of LIME and SHAP.
+    image_path: >-
+      https://raw.githubusercontent.com/cloudera/Applied-ML-Prototypes/master/images/explainability-lime-shap.png
+    tags:
+      - Interpretability
+      - Explainability
+      - LIME
+      - SHAP
+    git_url: "https://github.com/cloudera/CML_AMP_Explainability_LIME_SHAP.git"
+    is_prototype: true
+  
+  - title: Active Learning
+    label: active-learning
+    short_description: Interactive visual workflow of active learning using the MNIST dataset.
+    long_description: >-
+      Supervised machine learning, while powerful, needs labeled data to be effective. Active learning reduces the number of labeled examples 
+      needed to train a model, saving time and money while obtaining comparable performance to models trained with much more data.This application 
+      demonstrates the active learning workflow in an interactive experience.
+    image_path: >-
+      https://raw.githubusercontent.com/cloudera/Applied-ML-Prototypes/master/images/active-learning.png
+    tags:
+      - Active Learning
+      - Learning with Limited Labeled Data
+    git_url: "https://github.com/cloudera/CML_AMP_Active_Learning.git"
+    is_prototype: true
+
+  - title: MLFlow Tracking
+    label: mlflow-tracking
+    short_description: Experiment tracking with MLFlow.
+    long_description: >-
+      This project implements minimal viable experiment tracking on a supervised classification problem using scikit-learn and MLFlow.
+    image_path: >-
+      https://raw.githubusercontent.com/cloudera/Applied-ML-Prototypes/master/images/mlflow-tracking.png
+    tags:
+      - Experiment Tracking
+    git_url: "https://github.com/cloudera/CML_AMP_MLFlow_Tracking.git"
+    is_prototype: true
+
   - title: Airline Delay Prediction
     label: airline-delay-prediction
     short_description: Perform flight analytics and build an XGBoost model to predict flight delays.
