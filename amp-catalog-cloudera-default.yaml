@@ -171,6 +171,24 @@ entries:
     git_url: "https://github.com/cloudera/CML_AMP_MLFlow_Tracking.git"
     is_prototype: true
 
+  - title: Few-Shot Text Classification
+    label: fewshot-text-classification
+    short_description: Perform topic classification on news articles in several limited-labeled data regimes. 
+    long_description: >-
+      This project provides a sample user interface that demonstrates how to perform text classification when only a few labeled training 
+      examples exist, or even when there are no training examples at all! The approach relies on embedding text using word embeddings and 
+      sentence embeddings with state-of-the-art Transformer models. 
+    image_path: >-
+      https://raw.githubusercontent.com/cloudera/Applied-ML-Prototypes/master/images/fewshot-text-classification.png
+    tags:
+      - NLP
+      - Few-Shot Learning
+      - Zero-Shot Classification
+      - Text Embeddings
+      - BERT
+    git_url: "https://github.com/cloudera/CML_AMP_Few-Shot_Text_Classification.git"
+    is_prototype: true
+
   - title: Airline Delay Prediction
     label: airline-delay-prediction
     short_description: Perform flight analytics and build an XGBoost model to predict flight delays.
