@@ -189,36 +189,45 @@ entries:
     git_url: "https://github.com/cloudera/CML_AMP_Few-Shot_Text_Classification.git"
     is_prototype: true
 
-  - title: Airline Delay Prediction
-    label: airline-delay-prediction
-    short_description: Perform flight analytics and build an XGBoost model to predict flight delays.
+  - title: Canceled Flight Prediction
+    label: canceled-flight-prediction
+    short_description: Perform analytics on a large airline dataset with Spark and build an XGBoost model to predict flight cancellations.
     long_description: >-
-      This project creates an API that can predict the likelihood of a flight
-      being cancelled based on historic flight data. The original dataset comes
-      from Kaggle. The project shows both the pyspark and sparklyr implementations
-      and covers: Importing Data Data Science and Exploration Data Engineering ML
-      Model Building and Optimisation ML Model Training ML Model Serving Deploying
-      an Application.
+      This project demonstrates end-to-end processing with Spark to take two large, raw datasets and transform them into a unified dataset 
+      upon which an XGBoost classification model is trained to predict flight cancellations. Additionally, the project deploys a hosted model 
+      and front-end application to allow users to interact with the trained model.
     image_path: >-
-      https://raw.githubusercontent.com/cloudera/Applied-ML-Prototypes/master/images/comingsoon/airline-delay-prediction.jpg
+      https://raw.githubusercontent.com/cloudera/Applied-ML-Prototypes/master/images/canceled-flight-prediction.png
     tags:
       - xgboost
-    git_url: "https://github.com/cloudera/CML_AMP_Airline_Delay_Prediction.git"
-    coming_soon: true
+    git_url: "https://github.com/cloudera/CML_AMP_Canceled_Flight_Prediction.git"
+    is_prototype: true
 
-  - title: Fraud Detection
-    label: fraud-detection
-    short_description: Build a model in Pytorch to detect fraudulent credit card transactions.
+  - title: Streamlit
+    label: streamlit
+    short_description: Demonstration of how to use Streamlit as a CML Application.
     long_description: >-
-      In this project, a fictional credit card company uses machine learning to identify fraudulent transactions 
-      that should be blocked or investigated. Although the features in this dataset are abstract, in principle, post 
-      hoc analysis could also surface fraud hotspots that could be communicated as an alert to customers. The techniques in 
-      this use case are applicable to any situation in which most measurements or events are normal, but rare outliers 
-      require attention.
+      This project demonstrates running a small Streamlit application inside CML. It does no machine learning, and simply illustrates the small
+      amount of wiring necessary to create a CML Application using Streamlit.
     image_path: >-
-      https://raw.githubusercontent.com/cloudera/Applied-ML-Prototypes/master/images/comingsoon/fraud.jpg
+      https://raw.githubusercontent.com/cloudera/Applied-ML-Prototypes/master/images/streamlit.png
     tags:
       - Fraud Detection
       - Anomaly Detection
-    git_url: "https://github.com/fastforwardlabs/cml_fraud_demo"
-    coming_soon: true
+    git_url: "https://github.com/cloudera/CML_AMP_Streamlit_on_CML.git"
+    is_prototype: true
+
+  - title: Object Detection Inference Visualized
+    label: object-detection-inference
+    short_description: Interact with a blog-style Streamlit application to visually unpack the inference workflow of a modern, single-stage object detector.
+    long_description: >-
+      This application offers a step-by-step walkthrough to help visualize the inference workflow of a single-stage object detector. Specifically,
+      we'll see how a pre-trained RetinaNet model processes an image to quickly and accurately detect objects while also exploring fundamental object 
+      detection concepts along the way.
+    image_path: >-
+      https://raw.githubusercontent.com/cloudera/Applied-ML-Prototypes/master/images/object-detection-inference.png
+    tags:
+      - Fraud Detection
+      - Anomaly Detection
+    git_url: "https://github.com/cloudera/CML_AMP_Object_Detection_Inference.git"
+    is_prototype: true
