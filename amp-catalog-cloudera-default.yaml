@@ -199,7 +199,10 @@ entries:
     image_path: >-
       https://raw.githubusercontent.com/cloudera/Applied-ML-Prototypes/master/images/canceled-flight-prediction.png
     tags:
-      - xgboost
+      - Binary Classification
+      - XGBoost
+      - PySpark
+      - Flask
     git_url: "https://github.com/cloudera/CML_AMP_Canceled_Flight_Prediction.git"
     is_prototype: true
 
@@ -212,8 +215,9 @@ entries:
     image_path: >-
       https://raw.githubusercontent.com/cloudera/Applied-ML-Prototypes/master/images/streamlit.png
     tags:
-      - Fraud Detection
-      - Anomaly Detection
+      - Streamlit
+      - Applications
+      - Data Visualization
     git_url: "https://github.com/cloudera/CML_AMP_Streamlit_on_CML.git"
     is_prototype: true
 
@@ -227,7 +231,9 @@ entries:
     image_path: >-
       https://raw.githubusercontent.com/cloudera/Applied-ML-Prototypes/master/images/object-detection-inference.png
     tags:
-      - Fraud Detection
-      - Anomaly Detection
+      - Computer Vision
+      - Object Detection
+      - PyTorch
+      - Streamlit
     git_url: "https://github.com/cloudera/CML_AMP_Object_Detection_Inference.git"
     is_prototype: true
