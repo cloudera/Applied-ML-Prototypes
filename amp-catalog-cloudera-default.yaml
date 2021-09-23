@@ -115,7 +115,7 @@ entries:
       This project allows users to explore the task of question answering from several angles. First, users can interact with a real QA 
       system, in which open questions are answered with snippets found in Wikipedia articles. Next, users can explore an app that showcases 
       the types of models that make QA systems possible. Finally, users can learn and visualize the data structures required for training 
-      and evaluating those models.  
+      and evaluating those models.
     image_path: >-
       https://raw.githubusercontent.com/cloudera/Applied-ML-Prototypes/master/images/question-answering.png
     tags:
@@ -143,7 +143,7 @@ entries:
       - SHAP
     git_url: "https://github.com/cloudera/CML_AMP_Explainability_LIME_SHAP.git"
     is_prototype: true
-  
+
   - title: Active Learning
     label: active-learning
     short_description: Interactive visual workflow of active learning using the MNIST dataset.
@@ -173,11 +173,11 @@ entries:
 
   - title: Few-Shot Text Classification
     label: fewshot-text-classification
-    short_description: Perform topic classification on news articles in several limited-labeled data regimes. 
+    short_description: Perform topic classification on news articles in several limited-labeled data regimes.
     long_description: >-
       This project provides a sample user interface that demonstrates how to perform text classification when only a few labeled training 
       examples exist, or even when there are no training examples at all! The approach relies on embedding text using word embeddings and 
-      sentence embeddings with state-of-the-art Transformer models. 
+      sentence embeddings with state-of-the-art Transformer models.
     image_path: >-
       https://raw.githubusercontent.com/cloudera/Applied-ML-Prototypes/master/images/fewshot-text-classification.png
     tags:
@@ -236,4 +236,19 @@ entries:
       - PyTorch
       - Streamlit
     git_url: "https://github.com/cloudera/CML_AMP_Object_Detection_Inference.git"
+    is_prototype: true
+
+  - title: Getting Started with the CML API
+    label: apiv2
+    short_description: Demonstration of how to use the CML API to interact with CML.
+    long_description: >-
+      In addition to the UI interface, Cloudera Machine Learning (CML) provides an API to interact with the platform programmatically. This notebook 
+      demonstrates how to work with the API.
+    image_path: >-
+      https://raw.githubusercontent.com/cloudera/Applied-ML-Prototypes/master/images/apiv2.png
+    tags:
+      - API
+      - CML
+      - Python
+    git_url: "https://github.com/cloudera/CML_AMP_APIv2.git"
     is_prototype: true
