@@ -252,3 +252,19 @@ entries:
       - Python
     git_url: "https://github.com/cloudera/CML_AMP_APIv2.git"
     is_prototype: true
+
+  - title: AutoML with TPOT
+    label: automl-with-tpot
+    short_description: AutoML using TPOT, distributed with Dask.
+    long_description: >-
+      Automated data visualization and scikit learn pipeline creation using TPOT, Dask, and CML Workers in a Jupyter notebook.
+    image_path: >-
+      https://raw.githubusercontent.com/cloudera/Applied-ML-Prototypes/master/images/automl-with-tpot.png
+    tags:
+      - TPOT
+      - AutoML
+      - Dask
+      - Python
+      - Workers
+    git_url: "https://github.com/cloudera/CML_AMP_AutoML_with_TPOT.git"
+    is_prototype: true
