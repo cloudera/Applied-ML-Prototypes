@@ -268,3 +268,18 @@ entries:
       - Workers
     git_url: "https://github.com/cloudera/CML_AMP_AutoML_with_TPOT.git"
     is_prototype: true
+
+  - title: Summarize
+    label: summarize
+    short_description: Automatic text summarization with extractive and abstractive models.
+    long_description: >-
+      This project builds a Streamlit application that demos four automatic summarization models, including extractive and abstractive techniques.
+      It facilitates qualitative and quantitative comparisons of model summaries, as well as allowing users to summarize their own input text.
+    image_path: >-
+      https://raw.githubusercontent.com/cloudera/Applied-ML-Prototypes/master/images/summarize.png
+    tags:
+      - Summarization
+      - NLP
+      - Streamlit
+    git_url: "https://github.com/cloudera/CML_AMP_Summarize.git"
+    is_prototype: true
