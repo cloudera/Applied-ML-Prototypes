@@ -283,3 +283,19 @@ entries:
       - Streamlit
     git_url: "https://github.com/cloudera/CML_AMP_Summarize.git"
     is_prototype: true
+
+  - title: Train Gensim's Word2Vec
+    label: gensim-w2v
+    short_description: Demonstration of how to train Gensim's Word2Vec for a non-language use case.
+    long_description: >-
+      This Jupyter Notebook project demonstrates how to train Word2Vec for a non-language  use case to learn embeddings for productcs on an e-commerce website. 
+      Includes a demonstration of hyperparameter optimization and early stopping for the Word2Vec model.
+    image_path: >-
+      https://raw.githubusercontent.com/cloudera/Applied-ML-Prototypes/master/images/gensim-w2v.png
+    tags:
+      - Embeddings
+      - Gensim
+      - Word2Vec
+      - Hyperparameter Optimization
+    git_url: "https://github.com/cloudera/CML_AMP_Train_Gensim_W2V.git"
+    is_prototype: true
