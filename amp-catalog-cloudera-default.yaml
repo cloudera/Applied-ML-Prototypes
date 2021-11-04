@@ -299,3 +299,19 @@ entries:
       - Hyperparameter Optimization
     git_url: "https://github.com/cloudera/CML_AMP_Train_Gensim_W2V.git"
     is_prototype: true
+
+  - title: TensorBoard as a CML Application
+    label: tensorboard
+    short_description: Demonstration of how to use TensorBoard as a CML Application.
+    long_description: >-
+      This project demonstrates how to run a TensorBoard dashboard as an application inside CML. To facilitate the demo, a minimal script is run to train a neural network
+      on the MNIST digits data set while capturing logs that are visualized in the TensorBoard application.
+    image_path: >-
+      https://raw.githubusercontent.com/cloudera/Applied-ML-Prototypes/master/images/tensorboard.png
+    tags:
+      - Tensorboard
+      - Applications
+      - Tensorflow
+      - Keras
+    git_url: "https://github.com/cloudera/CML_AMP_Tensorboard_on_CML.git"
+    is_prototype: true
