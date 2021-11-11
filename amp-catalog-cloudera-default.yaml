@@ -269,7 +269,7 @@ entries:
     git_url: "https://github.com/cloudera/CML_AMP_AutoML_with_TPOT.git"
     is_prototype: true
 
-  - title: Summarize
+  - title: Automatic Text Summarization
     label: summarize
     short_description: Automatic text summarization with extractive and abstractive models.
     long_description: >-
