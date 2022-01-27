@@ -315,3 +315,41 @@ entries:
       - Keras
     git_url: "https://github.com/cloudera/CML_AMP_Tensorboard_on_CML.git"
     is_prototype: true
+
+  - title: Video Classification
+    label: video-classification
+    short_description: Demonstration of how to perform video classification using pre-trained TensorFlow models.
+    long_description: >-
+      This project provides a Jupyter Notebook walkthrough of video classification/action recognition with a 
+      pre-trained Tensorflow model and provides guidance for working with video data.  The project also includes 
+      a script that demonstrates how to perform larger-scale model inference.
+    image_path: >-
+      https://raw.githubusercontent.com/cloudera/Applied-ML-Prototypes/master/images/video-classification.png
+    tags:
+      - Video Classification
+      - Action Recognition
+      - Activity Recognition
+      - Video Understanding
+      - Tensorflow
+    git_url: "https://github.com/cloudera/CML_AMP_Video_Classification.git"
+    is_prototype: true
+
+  - title: Continuous Model Monitoring
+    label: continuous-model-monitoring
+    short_description: Demonstration of how to perform continuous model monitoring on CML using Model Metrics and Evidently.ai dashboards.
+    long_description: >-
+      To combat concept drift in production systems, its important to have robust monitoring capabilities that alert 
+      stakeholders when relationships in the incoming data or model have changed. In this Applied Machine Learning 
+      Prototype (AMP), we demonstrate how this can be achieved on CML. Specifically, we leverage CML's Model Metrics 
+      feature in combination with Evidently.ai's Data Drift, Numerical Target Drift, and Regression Performance reports 
+      to monitor a simulated production model that predicts housing prices over time.
+    image_path: >-
+      https://raw.githubusercontent.com/cloudera/Applied-ML-Prototypes/master/images/continuous-model-monitoring.png
+    tags:
+      - Model Monitoring
+      - Production ML
+      - MLOps
+      - Evidently.ai
+      - APIv2
+    git_url: "https://github.com/cloudera/CML_AMP_Continuous_Model_Monitoring.git"
+    is_prototype: true
