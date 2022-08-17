@@ -361,7 +361,7 @@ entries:
       This project provides a Jupyter Notebook that demonstrates a typical data science workflow for detecting fraudulent credit card 
       transactions by training a distributed XGBoost model in conjunction with Dask, a library for scaling Python applications, using the CML Workers API.
     image_path: >-
-      https://raw.githubusercontent.com/cloudera/Applied-ML-Prototypes/master/images/dask-on-cml.jpg
+      https://raw.githubusercontent.com/cloudera/Applied-ML-Prototypes/master/images/dask-on-cml.png
     tags:
       - Distributed Computing
       - XGBoost
