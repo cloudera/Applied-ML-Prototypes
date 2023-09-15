@@ -4,7 +4,7 @@ entries:
   - title: Fine-Tuning a Foundation Model for Multiple Tasks (with QLoRA)
     label: llm-fine-tuning
     short_description: |
-        Parameter Efficient Fine Tuning for Custom Tasks
+        This AMP demonstrates how to improve performance of Large Language Models for specific tasks using distributed fine tuning techniques like Parameter-Efficient Fine-Tuning(PEFT) and Quantization.
     long_description: |
         This AMP demonstrates how to improve performance of Large Language Models for specific tasks using distributed fine tuning techniques like Parameter-Efficient Fine-Tuning(PEFT) and Quantization.
         ---------------------------
