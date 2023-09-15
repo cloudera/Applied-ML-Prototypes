@@ -1,6 +1,49 @@
 name: Cloudera
 
 entries:
+  - title: Fine-Tuning a Foundation Model for Multiple Tasks (with QLoRA)
+    label: llm-fine-tuning
+    short_description: |
+        Parameter Efficient Fine Tuning for Custom Tasks
+    long_description: |
+        This AMP demonstrates how to improve performance of Large Language Models for specific tasks using distributed fine tuning techniques like Parameter-Efficient Fine-Tuning(PEFT) and Quantization.
+        ---------------------------
+        IMPORTANT: Please read the following before proceeding.
+        -----
+        By configuring and launching this AMP, you will cause the model and datasets, identified below, to be downloaded and installed into your environment from third parties’ websites.  For each model or dataset, please see the applicable website for more information, including the applicable license terms.
+        ------
+        Model: https://huggingface.co/bigscience/bloom-1b1
+        ------
+        Datasets:
+        https://huggingface.co/datasets/teknium/GPTeacher-General-Instruct
+        https://huggingface.co/datasets/s-nlp/paradetox
+        https://huggingface.co/datasets/philschmid/sql-create-context-copy
+        ------------------------------
+        If you do not wish to download and install the model and the datasets, click “cancel” below.  By clicking “configure” below, you acknowledge the foregoing statement and agree that Cloudera is not responsible or liable in any way for the model and the datasets.
+    long_description_html: |
+        This AMP demonstrates how to improve performance of Large Language Models for specific tasks using distributed fine tuning techniques like Parameter-Efficient Fine-Tuning(PEFT) and Quantization.
+        <div style="margin-top:10px"><b>IMPORTANT:</b> Please read the following before proceeding.</div>
+        <div style="margin-top:10px">By configuring and launching this AMP, you will cause the model and datasets, identified below, to be downloaded and installed into your environment from third parties’ websites.  For each model or dataset, please see the applicable website for more information, including the applicable license terms.</div>
+        <div style="margin-top:10px"><b>Model:</b></div>
+            <div style="margin-top:10px">https://huggingface.co/bigscience/bloom-1b1</div>
+        <div style="margin-top:10px"><b>Datasets:</b></div>
+            <div style="margin-top:10px">https://huggingface.co/datasets/teknium/GPTeacher-General-Instruct</div>
+            <div style="margin-top:10px">https://huggingface.co/datasets/s-nlp/paradetox</div>
+            <div style="margin-top:10px">https://huggingface.co/datasets/philschmid/sql-create-context-copy</div>
+        <div style="margin-top:10px">If you do not wish to download and install the model and the datasets, click “cancel” below.  By clicking “configure” below, you acknowledge the foregoing statement and agree that Cloudera is not responsible or liable in any way for the model and the datasets.</div>
+
+    image_path: >-
+      https://github.com/cloudera/CML_AMP_Finetune_Foundation_Model_Multiple_Tasks/blob/main/images/titlecard.png?raw=true
+    tags:
+      - Huggingface
+      - QLoRA
+      - PEFT
+      - LLM
+      - Fine-tuning
+      - PEFT
+      - Distributed
+    git_url: 'https://github.com/cloudera/CML_AMP_Finetune_Foundation_Model_Multiple_Tasks'
+    is_prototype: true
   - title: LLM Chatbot Augmented with Enterprise Data
     label: llm-chatbot
     short_description: |
