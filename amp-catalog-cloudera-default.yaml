@@ -1,6 +1,21 @@
 name: Cloudera
 
 entries:
+  - title: Text Summarization and more with Amazon Bedrock
+    label: llm_bedrock
+    short_description: |
+        This AMP demonstrates how to integrate text generation models from the Amazon Bedrock service for textx usecases like summarization.
+    long_description:
+        This AMP demonstrates how to integrate text generation models from the Amazon Bedrock service for text usecases like summarization.
+    image_path: >-
+      https://github.com/cloudera/AI_Text_Summarization_with_Amazon_Bedrock/blob/main/images/amp-image.png?raw=true
+    tags:
+      - Bedrock
+      - LLM
+      - Summarization
+    git_url: 'https://github.com/cloudera/CML_AMP_AI_Text_Summarization_with_Amazon_Bedrock'
+    is_prototype: true
+    
   - title: Fine-Tuning a Foundation Model for Multiple Tasks (with QLoRA)
     label: llm-fine-tuning
     short_description: |
