@@ -4,9 +4,10 @@ entries:
   - title: Text Summarization and more with Amazon Bedrock
     label: llm_bedrock
     short_description: |
-        This AMP demonstrates how to integrate text generation models from the Amazon Bedrock service for textx usecases like summarization.
-    long_description:
         This AMP demonstrates how to integrate text generation models from the Amazon Bedrock service for text usecases like summarization.
+    long_description: |
+        This AMP demonstrates how to integrate text generation models from the Amazon Bedrock service for text usecases like summarization.
+  
     image_path: >-
       https://raw.githubusercontent.com/cloudera/CML_AMP_AI_Text_Summarization_with_Amazon_Bedrock/main/images/amp-image.png
     tags:
