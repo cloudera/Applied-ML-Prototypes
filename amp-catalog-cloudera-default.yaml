@@ -280,18 +280,6 @@ entries:
     git_url: "https://github.com/cloudera/CML_AMP_Active_Learning.git"
     is_prototype: true
 
-  - title: MLFlow Tracking
-    label: mlflow-tracking
-    short_description: Experiment tracking with MLFlow.
-    long_description: >-
-      This project implements minimal viable experiment tracking on a supervised classification problem using scikit-learn and MLFlow.
-    image_path: >-
-      https://raw.githubusercontent.com/cloudera/Applied-ML-Prototypes/master/images/mlflow-tracking.png
-    tags:
-      - Experiment Tracking
-    git_url: "https://github.com/cloudera/CML_AMP_MLFlow_Tracking.git"
-    is_prototype: true
-
   - title: Few-Shot Text Classification
     label: fewshot-text-classification
     short_description: Perform topic classification on news articles in several limited-labeled data regimes.
