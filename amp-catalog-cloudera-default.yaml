@@ -162,24 +162,6 @@ entries:
     git_url: "https://github.com/cloudera/CML_AMP_Anomaly_Detection"
     is_prototype: true
 
-  - title: NeuralQA
-    label: neuralqa
-    short_description: >-
-      Launch a visual interface for question answering that supports BERT models and information retrieval methods.
-    long_description: >-
-      This project demonstrates how the Cloudera Fast Forward Labs NeuralQA
-      library can be used to bootstrap an application for extractive question
-      answering. The application interface integrates visualizations for
-      explaining model behaviour and contextual query expansion.
-    image_path: >-
-      https://raw.githubusercontent.com/cloudera/Applied-ML-Prototypes/master/images/neuralqa.jpg
-    tags:
-      - Question Answering
-      - BERT
-      - NLP
-    git_url: "https://github.com/cloudera/CML_AMP_NeuralQA"
-    is_prototype: true
-
   - title: Structural Time Series
     label: structural-time-series
     short_description: Applying a structural time series approach to California hourly electricity demand data.
