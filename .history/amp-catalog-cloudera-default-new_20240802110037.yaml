@@ -1,31 +1,6 @@
 name: Cloudera
 
 entries:
-  - title: PromptBrew by Verta
-    label: prompt-brew
-    short_description: |
-      Create, iterate, refine and test your LLM prompts with AI assistance.
-    long_description: |
-      Launch a PromptBrew app to get AI-powered assistance in crafting LLM prompts. Apply leading prompting strategies to your prompts and learn by doing.
-      ---------------------------
-      IMPORTANT: Please read the following before proceeding.  This AMP includes or otherwise depends on certain third party software packages. Information about such third party software packages are made available in the notice file associated with this AMP. By configuring and launching this AMP, you will cause such third party software packages to be downloaded and installed into your environment, in some instances, from third parties' websites. For each third party software package, please see the notice file and the applicable websites for more information, including the applicable license terms. If you do not wish to download and install the third party software packages, do not configure, launch or otherwise use this AMP. By configuring, launching or otherwise using the AMP, you acknowledge the foregoing statement and agree that Cloudera is not responsible or liable in any way for the third party software packages.
-    long_description_html: |
-      Launch a PromptBrew app to get AI-powered assistance in crafting LLM prompts. Apply leading prompting strategies to your prompts and learn by doing.
-      <div style="margin-top:10px"><b>IMPORTANT:</b> Please read the following before proceeding.</div>
-      <div style="margin-top:10px">This AMP includes or otherwise depends on certain third party software packages.  Information about such third party software packages are made available in the notice file associated with this AMP.  By configuring and launching this AMP, you will cause such third party software packages to be downloaded and installed into your environment, in some instances, from third parties' websites.  For each third party software package, please see the notice file and the applicable websites for more information, including the applicable license terms.</div>
-      <div style="margin-top:10px">If you do not wish to download and install the third party software packages, do not configure, launch or otherwise use this AMP.  By configuring, launching or otherwise using the AMP, you acknowledge the foregoing statement and agree that Cloudera is not responsible or liable in any way for the third party software packages.</div>
-    image_path: "https://github.com/cloudera/CML_AMP_PromptBrew/blob/main/assets/image.png?raw=true"
-    tags:
-      - Verta
-      - OpenAI
-      - GenAI
-      - Prompts
-      - Python
-      - Prompt Engineering
-      - LLM
-    git_url: "https://github.com/cloudera/CML_AMP_PromptBrew"
-    is_prototype: true
-
   - title: Document Analysis with Cohere CommandR and FAISS
     label: cohere-chatbot
     short_description: |
@@ -56,6 +31,11 @@ entries:
         ---------------------------
         IMPORTANT: Please read the following before proceeding. This AMP includes or otherwise depends on certain third party software packages.  Information about such third party software packages are made available in the notice file associated with this AMP.  By configuring and launching this AMP, you will cause such third party software packages to be downloaded and installed into your environment, in some instances, from third parties' websites.  For each third party software package, please see the notice file and the applicable websites for more information, including the applicable license terms.
         If you do not wish to download and install the third party software packages, do not configure, launch or otherwise use this AMP.  By configuring, launching or otherwise using the AMP, you acknowledge the foregoing statement and agree that Cloudera is not responsible or liable in any way for the third party software packages.
+    long_description_html: |
+        Ingest data with Cloudera DataFlow from a user-specified website sitemap to create embeddings in a Pinecone vector DB and deploy a context-aware LLM chatbot app with Cloudera Machine Learning.
+        <div style="margin-top:10px"><b>IMPORTANT:</b> Please read the following before proceeding.</div>
+        <div style="margin-top:10px">This AMP includes or otherwise depends on certain third party software packages.  Information about such third party software packages are made available in the notice file associated with this AMP.  By configuring and launching this AMP, you will cause such third party software packages to be downloaded and installed into your environment, in some instances, from third parties' websites.  For each third party software package, please see the notice file and the applicable websites for more information, including the applicable license terms.</div>
+        <div style="margin-top:10px">If you do not wish to download and install the third party software packages, do not configure, launch or otherwise use this AMP.  By configuring, launching or otherwise using the AMP, you acknowledge the foregoing statement and agree that Cloudera is not responsible or liable in any way for the third party software packages.</div>
     image_path: >-
       https://raw.githubusercontent.com/cloudera/CML_AMP_Intelligent-QA-Chatbot-with-NiFi-Pinecone-and-Llama2/main/assets/catalog-entry.png
     tags:
@@ -108,6 +88,18 @@ entries:
         https://huggingface.co/datasets/philschmid/sql-create-context-copy
         ------------------------------
         If you do not wish to download and install the model and the datasets, click “cancel” below.  By clicking “configure” below, you acknowledge the foregoing statement and agree that Cloudera is not responsible or liable in any way for the model and the datasets.
+    long_description_html: |
+        This AMP demonstrates how to improve performance of Large Language Models for specific tasks using distributed fine tuning techniques like Parameter-Efficient Fine-Tuning(PEFT) and Quantization.
+        <div style="margin-top:10px"><b>IMPORTANT:</b> Please read the following before proceeding.</div>
+        <div style="margin-top:10px">By configuring and launching this AMP, you will cause the model and datasets, identified below, to be downloaded and installed into your environment from third parties’ websites.  For each model or dataset, please see the applicable website for more information, including the applicable license terms.</div>
+        <div style="margin-top:10px"><b>Model:</b></div>
+            <div style="margin-top:10px">https://huggingface.co/bigscience/bloom-1b1</div>
+        <div style="margin-top:10px"><b>Datasets:</b></div>
+            <div style="margin-top:10px">https://huggingface.co/datasets/teknium/GPTeacher-General-Instruct</div>
+            <div style="margin-top:10px">https://huggingface.co/datasets/s-nlp/paradetox</div>
+            <div style="margin-top:10px">https://huggingface.co/datasets/philschmid/sql-create-context-copy</div>
+        <div style="margin-top:10px">If you do not wish to download and install the model and the datasets, click “cancel” below.  By clicking “configure” below, you acknowledge the foregoing statement and agree that Cloudera is not responsible or liable in any way for the model and the datasets.</div>
+
     image_path: >-
       https://github.com/cloudera/CML_AMP_Finetune_Foundation_Model_Multiple_Tasks/blob/main/images/titlecard.png?raw=true
     tags:
