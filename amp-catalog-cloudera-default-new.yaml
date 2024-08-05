@@ -24,6 +24,8 @@ entries:
       - Prompt Engineering
       - LLM
     git_url: "https://github.com/cloudera/CML_AMP_PromptBrew"
+    is_prototype: true
+
   - title: Document Analysis with Cohere CommandR and FAISS
     label: cohere-chatbot
     short_description: |
