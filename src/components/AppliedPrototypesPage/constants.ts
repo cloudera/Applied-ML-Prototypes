@@ -1,6 +1,0 @@
-
-export const CLOUDERA_AMP_TYPE_SECTION_TEXT = 'Cloudera accelerators are ML projects that can be deployed with one click directly from Cloudera Machine Learning (CML). AMPs enable data scientists to go from an idea to a fully working ML use case in a fraction of the time. It provides an end-to-end framework for building, deploying, and monitoring business-ready ML applications instantly.'
-
-export const HUGGINGFACE_AMP_TYPE_SECTION_TEXT = 'HuggingFace accelerators are ML projects that can be deployed with one click directly from Cloudera Machine Learning (CML). AMPs enable data scientists to go from an idea to a fully working ML use case in a fraction of the time. It provides an end-to-end framework for building, deploying, and monitoring business-ready ML applications instantly.'
-
-export const COMMUNITY_AMP_TYPE_SECTION_TEXT = 'Community accelerators are ML projects that can be deployed with one click directly from Cloudera Machine Learning (CML). AMPs enable data scientists to go from an idea to a fully working ML use case in a fraction of the time. It provides an end-to-end framework for building, deploying, and monitoring business-ready ML applications instantly.'
