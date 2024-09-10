@@ -1,8 +1,46 @@
-# Applied ML Prototype (AMP) Catalog
+# Getting Started with Create React App
 
-AMPs provide **end-to-end ML use cases that can be deployed with one click** directly from Cloudera Machine Learning (CML). They enable data scientists to go from an idea to a fully working ML use case in a fraction of the time it would otherwise take, with an end-to-end framework for building, deploying and monitoring business-ready ML applications. Visit the [AMP landing page](https://cloudera.github.io/Applied-ML-Prototypes/#/) to learn more!
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-[![Prototype Catalog](images/prototype_catalog.png)](https://cloudera.github.io/Applied-ML-Prototypes/#/)
+## Available Scripts
 
-This repository contains the default Cloudera AMP Catalog - a collection of AMPs built in-house by Cloudera's machine learning research team, [Fast Forward Labs](https://www.cloudera.com/products/fast-forward-labs-research.html). For further information on AMPs, visit the official [Cloudera Docs](https://docs.cloudera.com/machine-learning/cloud/applied-ml-prototypes/topics/ml-amps-overview.html).
+In the project directory, you can run:
 
+### `npm start`
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
+
+### `npm test`
+
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
