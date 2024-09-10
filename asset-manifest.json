@@ -1,15 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.5311fade.css",
-    "main.js": "/static/js/main.fdf4e726.js",
-    "static/media/hero.jpg": "/static/media/hero.28c137ec3a397827c0b0.jpg",
+    "main.js": "/static/js/main.36a94422.js",
     "static/media/cloudera.webp": "/static/media/cloudera.933d4c464955137b1ddf.webp",
     "index.html": "/index.html",
     "main.5311fade.css.map": "/static/css/main.5311fade.css.map",
-    "main.fdf4e726.js.map": "/static/js/main.fdf4e726.js.map"
+    "main.36a94422.js.map": "/static/js/main.36a94422.js.map"
   },
   "entrypoints": [
     "static/css/main.5311fade.css",
-    "static/js/main.fdf4e726.js"
+    "static/js/main.36a94422.js"
   ]
 }
