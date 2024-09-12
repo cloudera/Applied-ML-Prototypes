@@ -25,7 +25,23 @@ entries:
       - LLM
     git_url: "https://github.com/cloudera/CML_AMP_PromptBrew"
     is_prototype: true
-    
+    is_new: true
+
+  - title: Chat with your Documents
+    label: docchat
+    short_description: Chatbot for Custom Documents
+    long_description: >-
+      Pre-trained instruction-following LLM (Large Language Model) ChatBot enhanced by context from an internal knowledge base 
+    image_path: >-
+      https://github.com/cloudera/LlamaIndex_IN_CML_AMP/blob/main/assets/images/logo.png
+    tags:
+      - DocChat
+      - RAG
+      - LlamaIndex
+    git_url: "https://github.com/cloudera/LlamaIndex_IN_CML_AMP.git" 
+    is_prototype: true
+    is_new: true
+
   - title: Intelligent QA Chatbot with   NiFi, Pinecone, and Llama2
     label: llm-code-creation
     short_description: |
