@@ -41,7 +41,7 @@ entries:
     git_url: "https://github.com/cloudera/LlamaIndex_IN_CML_AMP.git" 
     is_prototype: true
     is_new: true
-    
+
   - title: Intelligent QA Chatbot with   NiFi, Pinecone, and Llama2
     label: llm-code-creation
     short_description: |
