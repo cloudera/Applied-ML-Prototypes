@@ -32,8 +32,7 @@ entries:
     short_description: Chatbot for Custom Documents
     long_description: >-
       Pre-trained instruction-following LLM (Large Language Model) ChatBot enhanced by context from an internal knowledge base 
-    image_path: >-
-      https://github.com/cloudera/LlamaIndex_IN_CML_AMP/blob/main/assets/images/logo.png?raw=true
+    image_path: "https://github.com/cloudera/LlamaIndex_IN_CML_AMP/blob/main/assets/images/logo.png?raw=true"
     tags:
       - DocChat
       - RAG
