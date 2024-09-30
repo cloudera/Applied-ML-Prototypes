@@ -276,6 +276,10 @@ entries:
       - GAN
     git_url: "https://github.com/cloudera/CML_AMP_Anomaly_Detection"
     is_prototype: true
+    environment_variables: 
+      is_embedded_app:
+        default: true
+        description: "Embed this app within AI Workbench"
 
   - title: Structural Time Series
     label: structural-time-series
