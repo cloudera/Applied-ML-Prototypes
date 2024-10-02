@@ -1,6 +1,60 @@
 name: Cloudera
 
 entries:
+  - title: Image Analysis with Anthropic's Claude LLM
+    label: anthropic-claude
+    short_description: |
+      This AMP uses Anthropic Claude models for transcribing and extracting information from images, supporting text extraction, document QA, and converting unstructured content into structured formats like JSON.
+    long_description: |
+      This AMP enables transcription and information extraction from images using Anthropic Claude models, covering use cases like text extraction, document QA, and converting unstructured content into structured formats like JSON.
+      ---------------------------
+      IMPORTANT: Please read the following before proceeding.  This AMP includes or otherwise depends on certain third party software packages. Information about such third party software packages are made available in the notice file associated with this AMP. By configuring and launching this AMP, you will cause such third party software packages to be downloaded and installed into your environment, in some instances, from third parties' websites. For each third party software package, please see the notice file and the applicable websites for more information, including the applicable license terms. If you do not wish to download and install the third party software packages, do not configure, launch or otherwise use this AMP. By configuring, launching or otherwise using the AMP, you acknowledge the foregoing statement and agree that Cloudera is not responsible or liable in any way for the third party software packages.
+    long_description_html: |
+      This AMP enables transcription and information extraction from images using Anthropic Claude models, covering use cases like text extraction, document QA, and converting unstructured content into structured formats like JSON.
+      <div style="margin-top:10px"><b>IMPORTANT:</b> Please read the following before proceeding.</div>
+      <div style="margin-top:10px">This AMP includes or otherwise depends on certain third party software packages.  Information about such third party software packages are made available in the notice file associated with this AMP.  By configuring and launching this AMP, you will cause such third party software packages to be downloaded and installed into your environment, in some instances, from third parties' websites.  For each third party software package, please see the notice file and the applicable websites for more information, including the applicable license terms.</div>
+      <div style="margin-top:10px">If you do not wish to download and install the third party software packages, do not configure, launch or otherwise use this AMP.  By configuring, launching or otherwise using the AMP, you acknowledge the foregoing statement and agree that Cloudera is not responsible or liable in any way for the third party software packages.</div>
+    image_path: >-
+      https://raw.githubusercontent.com/cloudera/CML_AMP_Image-Analysis-with-Anthropic-Claude/main/assets/catalog-entry.png
+    tags:
+      - Anthropic
+      - Claude
+      - Image Analysis
+      - LLM
+      - OCR
+      - Transcription
+      - Extraction
+      - Summarization
+    git_url: 'https://github.com/cloudera/CML_AMP_Image-Analysis-with-Anthropic-Claude.git'
+    is_prototype: true
+    is_new: true
+    
+  - title: Document Summarization with Gemini from Vertex AI
+    label: vertex-ai-gemini
+    short_description: |
+      Summarize documents and text using Google's Gemini models from the Vertex AI Model Garden.
+    long_description: |
+      This Accelerator for Machine Learning Projects ("AMP") allows users to summarize documents and text using Google's Gemini models from the Vertex AI Model Garden. It provides two summarization modes: text-based and document-based with document summarization supported through LlamaIndex as the vector store.
+      ---------------------------
+      IMPORTANT: Please read the following before proceeding.  This AMP includes or otherwise depends on certain third party software packages. Information about such third party software packages are made available in the notice file associated with this AMP. By configuring and launching this AMP, you will cause such third party software packages to be downloaded and installed into your environment, in some instances, from third parties' websites. For each third party software package, please see the notice file and the applicable websites for more information, including the applicable license terms. If you do not wish to download and install the third party software packages, do not configure, launch or otherwise use this AMP. By configuring, launching or otherwise using the AMP, you acknowledge the foregoing statement and agree that Cloudera is not responsible or liable in any way for the third party software packages.
+    long_description_html: |
+      This Accelerator for Machine Learning Projects ("AMP") allows users to summarize documents and text using Google's Gemini models from the Vertex AI Model Garden. It provides two summarization modes: text-based and document-based with document summarization supported through LlamaIndex as the vector store.
+      <div style="margin-top:10px"><b>IMPORTANT:</b> Please read the following before proceeding.</div>
+      <div style="margin-top:10px">This AMP includes or otherwise depends on certain third party software packages.  Information about such third party software packages are made available in the notice file associated with this AMP.  By configuring and launching this AMP, you will cause such third party software packages to be downloaded and installed into your environment, in some instances, from third parties' websites.  For each third party software package, please see the notice file and the applicable websites for more information, including the applicable license terms.</div>
+      <div style="margin-top:10px">If you do not wish to download and install the third party software packages, do not configure, launch or otherwise use this AMP.  By configuring, launching or otherwise using the AMP, you acknowledge the foregoing statement and agree that Cloudera is not responsible or liable in any way for the third party software packages.</div>
+    image_path: >-
+      https://raw.githubusercontent.com/cloudera/CML_AMP_Summarization_with_Vertex_AI_Gemini/main/assets/catalog-entry.png
+    tags:
+      - Gemini
+      - Vertex AI
+      - Document Summarization
+      - LlamaIndex
+      - PDF
+      - NLP
+    git_url: 'https://github.com/cloudera/CML_AMP_Summarization_with_Vertex_AI_Gemini.git'
+    is_prototype: true
+    is_new: true
+
   - title: Knowledge Graph powered RAG based QA application
     label: llm-kg-rag-qa
     short_description: |
