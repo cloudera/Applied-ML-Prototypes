@@ -17,6 +17,7 @@ entries:
     image_path: >-
       https://raw.githubusercontent.com/cloudera/CML_AMP_Image-Analysis-with-Anthropic-Claude/main/assets/catalog-entry.png
     tags:
+      - Partner
       - Anthropic
       - Claude
       - Image Analysis
@@ -45,6 +46,7 @@ entries:
     image_path: >-
       https://raw.githubusercontent.com/cloudera/CML_AMP_Summarization_with_Vertex_AI_Gemini/main/assets/catalog-entry.png
     tags:
+      - Partner
       - Gemini
       - Vertex AI
       - Document Summarization
@@ -71,8 +73,9 @@ entries:
     image_path: >-
       https://raw.githubusercontent.com/cloudera/CML_AMP-Document-Analysis-with-Cohere-CommandR-and-FAISS/main/images/catalog-entry.jpg
     tags:
-      - Chatbot
+      - Partner
       - Cohere
+      - Chatbot
       - FAISS
       - LLM
       - Generative AI
@@ -198,8 +201,9 @@ entries:
     image_path: >-
       https://raw.githubusercontent.com/cloudera/CML_AMP_Intelligent-QA-Chatbot-with-NiFi-Pinecone-and-Llama2/main/assets/catalog-entry.png
     tags:
-      - Chatbot
+      - Partner
       - Pinecone
+      - Chatbot
       - Milvus
       - LLM
       - Llama2
@@ -222,6 +226,7 @@ entries:
     image_path: >-
       https://raw.githubusercontent.com/cloudera/CML_AMP_AI_Text_Summarization_with_Amazon_Bedrock/main/images/amp-image.png
     tags:
+      - Partner
       - Bedrock
       - LLM
       - Summarization
