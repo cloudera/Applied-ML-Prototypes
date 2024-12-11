@@ -21,6 +21,7 @@ entries:
       - RAG
       - AI
     git_url: "https://github.com/cloudera/CML_AMP_RAG_Studio"
+    git_ref: "release/1"
     is_prototype: true
     is_new: true
   - title: Knowledge Graph powered RAG based QA application
