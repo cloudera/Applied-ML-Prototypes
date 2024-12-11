@@ -4,7 +4,7 @@ entries:
   - title: RAG Studio
     label: rag-studio
     short_description: |
-      TBD
+      Build chatbots powered by your data - no code RAG studio for a quick start, easy access and fast innovation.
     long_description: |
       Build a RAG application to ask questions about your documents
           ---------------------------
