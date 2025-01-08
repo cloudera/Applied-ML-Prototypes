@@ -11,7 +11,7 @@ entries:
       https://github.com/cloudera/CAI_AMP_AYA_All_Your_Agents/blob/main/assets/aya-card.png
     tags:
       - Agents
-    git_url: 'hhttps://github.com/cloudera/CAI_AMP_AYA_All_Your_Agents'
+    git_url: 'https://github.com/cloudera/CAI_AMP_AYA_All_Your_Agents'
     is_prototype: true
     is_new: true
   - title: RAG Studio
