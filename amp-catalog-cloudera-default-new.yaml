@@ -1,6 +1,19 @@
 name: Cloudera
 
 entries:
+  - title: Agentic workflows with AYA (All Your Agents)
+    label: agents
+    short_description: |
+        This AMP implements A.Y.A., an agentic workflow assistant, to demonstrate how agentic workflows can help you interact with a wide and complex series of AI agents and tools.
+    long_description: |
+        This AMP implements A.Y.A., an agentic workflow assistant, to demonstrate how agentic workflows can help you interact with a wide and complex series of AI agents and tools.  By configuring, launching or otherwise using the AMP, you acknowledge the foregoing statement and agree that Cloudera is not responsible or liable in any way for the third party software packages.
+    image_path: >-
+      https://github.com/cloudera/CAI_AMP_AYA_All_Your_Agents/blob/main/assets/aya-card.png
+    tags:
+      - Agents
+    git_url: 'hhttps://github.com/cloudera/CAI_AMP_AYA_All_Your_Agents'
+    is_prototype: true
+    is_new: true
   - title: RAG Studio
     label: rag-studio
     short_description: |
