@@ -77,34 +77,6 @@ entries:
     git_url: "https://github.com/cloudera/CML_AMP_RAG_Monitoring"
     is_prototype: true
     is_new: true
-  - title: Knowledge Graph powered RAG based QA application
-    label: llm-kg-rag-qa
-    short_description: |
-      A Knowledge-graph enhanced RAG application to answer your AI/ML related questions.
-    long_description: |
-      This AMP spins up a knowledge graph powered RAG application which has the capability to answer AI/ML questions drawing from the latest research publications. The knowledge base consists of ~650 AI/ML papers from arXiv, and the citation relationships between them are captured as "edges" in the knowledge graph, which is powered by Neo4j. Additional information from knowledge graph is used to better rerank text chunks retrieved by vector search and also suggest related papers from the answer to assist user's research.
-      ---------------------------
-      IMPORTANT: Please read the following before proceeding.  This AMP includes or otherwise depends on certain third party software packages. Information about such third party software packages are made available in the notice file associated with this AMP. By configuring and launching this AMP, you will cause such third party software packages to be downloaded and installed into your environment, in some instances, from third parties' websites. For each third party software package, please see the notice file and the applicable websites for more information, including the applicable license terms. If you do not wish to download and install the third party software packages, do not configure, launch or otherwise use this AMP. By configuring, launching or otherwise using the AMP, you acknowledge the foregoing statement and agree that Cloudera is not responsible or liable in any way for the third party software packages.
-    long_description_html: |
-      This AMP spins up a knowledge graph powered RAG application which has the capability to answer AI/ML questions drawing from the latest research publications. The knowledge base consists of ~650 AI/ML papers from arXiv, and the citation relationships between them are captured as "edges" in the knowledge graph, which is powered by Neo4j. Additional information from knowledge graph is used to better rerank text chunks retrieved by vector search and also suggest related papers from the answer to assist user's research.
-      <div style="margin-top:10px"><b>IMPORTANT:</b> Please read the following before proceeding.</div>
-      <div style="margin-top:10px">This AMP includes or otherwise depends on certain third party software packages.  Information about such third party software packages are made available in the notice file associated with this AMP.  By configuring and launching this AMP, you will cause such third party software packages to be downloaded and installed into your environment, in some instances, from third parties' websites.  For each third party software package, please see the notice file and the applicable websites for more information, including the applicable license terms.</div>
-      <div style="margin-top:10px">If you do not wish to download and install the third party software packages, do not configure, launch or otherwise use this AMP.  By configuring, launching or otherwise using the AMP, you acknowledge the foregoing statement and agree that Cloudera is not responsible or liable in any way for the third party software packages.</div>
-    image_path: "https://github.com/cloudera/CML_AMP_Knowledge_Graph_Backed_RAG/blob/main/assets/AMP_thumbnail.jpg?raw=true"
-    tags:
-      - GraphDB
-      - RAG
-      - Neo4j
-      - LLM
-      - Knowledge-Graph
-      - GenAI
-    git_url: "https://github.com/cloudera/CML_AMP_Knowledge_Graph_Backed_RAG"
-    is_prototype: true
-    is_new: true
-    environment_variables: 
-      is_embedded_app:
-        default: true
-        description: "Embed this app within AI Workbench"
 
   - title: Fine Tuning Studio
     label: fine-tuning-studio
@@ -135,6 +107,35 @@ entries:
     is_prototype: true
     is_new: true
 
+  - title: Knowledge Graph powered RAG based QA application
+    label: llm-kg-rag-qa
+    short_description: |
+      A Knowledge-graph enhanced RAG application to answer your AI/ML related questions.
+    long_description: |
+      This AMP spins up a knowledge graph powered RAG application which has the capability to answer AI/ML questions drawing from the latest research publications. The knowledge base consists of ~650 AI/ML papers from arXiv, and the citation relationships between them are captured as "edges" in the knowledge graph, which is powered by Neo4j. Additional information from knowledge graph is used to better rerank text chunks retrieved by vector search and also suggest related papers from the answer to assist user's research.
+      ---------------------------
+      IMPORTANT: Please read the following before proceeding.  This AMP includes or otherwise depends on certain third party software packages. Information about such third party software packages are made available in the notice file associated with this AMP. By configuring and launching this AMP, you will cause such third party software packages to be downloaded and installed into your environment, in some instances, from third parties' websites. For each third party software package, please see the notice file and the applicable websites for more information, including the applicable license terms. If you do not wish to download and install the third party software packages, do not configure, launch or otherwise use this AMP. By configuring, launching or otherwise using the AMP, you acknowledge the foregoing statement and agree that Cloudera is not responsible or liable in any way for the third party software packages.
+    long_description_html: |
+      This AMP spins up a knowledge graph powered RAG application which has the capability to answer AI/ML questions drawing from the latest research publications. The knowledge base consists of ~650 AI/ML papers from arXiv, and the citation relationships between them are captured as "edges" in the knowledge graph, which is powered by Neo4j. Additional information from knowledge graph is used to better rerank text chunks retrieved by vector search and also suggest related papers from the answer to assist user's research.
+      <div style="margin-top:10px"><b>IMPORTANT:</b> Please read the following before proceeding.</div>
+      <div style="margin-top:10px">This AMP includes or otherwise depends on certain third party software packages.  Information about such third party software packages are made available in the notice file associated with this AMP.  By configuring and launching this AMP, you will cause such third party software packages to be downloaded and installed into your environment, in some instances, from third parties' websites.  For each third party software package, please see the notice file and the applicable websites for more information, including the applicable license terms.</div>
+      <div style="margin-top:10px">If you do not wish to download and install the third party software packages, do not configure, launch or otherwise use this AMP.  By configuring, launching or otherwise using the AMP, you acknowledge the foregoing statement and agree that Cloudera is not responsible or liable in any way for the third party software packages.</div>
+    image_path: "https://github.com/cloudera/CML_AMP_Knowledge_Graph_Backed_RAG/blob/main/assets/AMP_thumbnail.jpg?raw=true"
+    tags:
+      - GraphDB
+      - RAG
+      - Neo4j
+      - LLM
+      - Knowledge-Graph
+      - GenAI
+    git_url: "https://github.com/cloudera/CML_AMP_Knowledge_Graph_Backed_RAG"
+    is_prototype: true
+    is_new: false
+    environment_variables: 
+      is_embedded_app:
+        default: true
+        description: "Embed this app within AI Workbench"
+
   - title: PromptBrew by Verta
     label: prompt-brew
     short_description: |
@@ -159,7 +160,7 @@ entries:
       - LLM
     git_url: "https://github.com/cloudera/CML_AMP_PromptBrew"
     is_prototype: true
-    is_new: true
+    is_new: false
 
   - title: Chat with your Documents
     label: docchat
@@ -173,7 +174,7 @@ entries:
       - LlamaIndex
     git_url: "https://github.com/cloudera/LlamaIndex_IN_CML_AMP.git" 
     is_prototype: true
-    is_new: true
+    is_new: false
 
   - title: Intelligent QA Chatbot with   NiFi, Pinecone, and Llama2
     label: llm-code-creation
