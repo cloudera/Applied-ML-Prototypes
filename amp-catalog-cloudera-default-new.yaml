@@ -1,6 +1,34 @@
 name: Cloudera
 
 entries:
+  - title: Synthetic Data Studio
+    label: synthetic-data-studio
+    short_description: |
+      Generate high quality synthetic data for Supervised Fine-Tuning , Model Alignment, Knowledge Distillation and data curation.
+    long_description: |
+      Synthetic Data Studio is an application on the Cloudera AI Platform for scalable synthetic data generation, enabling supervised fine-tuning, model alignment, knowledge distillation and custom data curation for your enterprise AI use cases.
+      ---------------------------
+      IMPORTANT: Please read the following before proceeding.  This AMP includes or otherwise depends on certain third party software packages. Information about such third party software packages are made available in the notice file associated with this AMP. By configuring and launching this AMP, you will cause such third party software packages to be downloaded and installed into your environment, in some instances, from third parties' websites. For each third party software package, please see the notice file and the applicable websites for more information, including the applicable license terms. If you do not wish to download and install the third party software packages, do not configure, launch or otherwise use this AMP. By configuring, launching or otherwise using the AMP, you acknowledge the foregoing statement and agree that Cloudera is not responsible or liable in any way for the third party software packages.
+    long_description_html: |
+      Synthetic Data Studio is an application on the Cloudera AI Platform for scalable synthetic data generation, enabling supervised fine-tuning, model alignment, knowledge distillation and custom data curation for your enterprise AI use cases.
+      <div style="margin-top:10px"><b>IMPORTANT:</b> Please read the following before proceeding.</div>
+      <div style="margin-top:10px">This AMP includes or otherwise depends on certain third party software packages.  Information about such third party software packages are made available in the notice file associated with this AMP.  By configuring and launching this AMP, you will cause such third party software packages to be downloaded and installed into your environment, in some instances, from third parties' websites.  For each third party software package, please see the notice file and the applicable websites for more information, including the applicable license terms.</div>
+      <div style="margin-top:10px">If you do not wish to download and install the third party software packages, do not configure, launch or otherwise use this AMP.  By configuring, launching or otherwise using the AMP, you acknowledge the foregoing statement and agree that Cloudera is not responsible or liable in any way for the third party software packages.</div>
+    image_path: >-
+      https://raw.githubusercontent.com/cloudera/AI-Studios/refs/heads/master/images/synthetic-data-studio-banner.svg
+    tags:
+      - LLM
+      - Synthetic datasets
+      - Knowledge Distillation
+      - Model Alignment
+      - Reinforcement Learning
+      - Supervised Finetuning
+      - AI
+    git_url: "https://github.com/cloudera/CAI_AMP_Synthetic_Data_Studio"
+    git_ref: "main"
+    is_prototype: true
+    is_new: true
+
   - title: Agent Studio
     label: agent-studio
     short_description: |
@@ -46,6 +74,7 @@ entries:
     git_ref: "release/1"
     is_prototype: true
     is_new: true
+    
   - title: RAG Monitoring
     label: rag-monitoring
     short_description: >
