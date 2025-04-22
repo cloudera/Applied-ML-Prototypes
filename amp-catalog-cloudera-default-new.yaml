@@ -1,6 +1,30 @@
 name: Cloudera
 
 entries:    
+  - title: Knowledge Distillation for Customer Support LLMs
+    label: KnowledgeDistillationForCustomerSupportUseCase
+    short_description: |
+        The project demonstrates how to distill knowledge from a larger model to a local model for a customer support use case using outputs from Synthetic Data Studio.
+    long_description: |
+        The AMP demonstrates knowledge distillation to address the challenge of improving the accuracy and speed of a customer support LLM while adhering to data privacy constraints. By leveraging synthetic data generation and fine-tuning techniques, we demonstrate how to train a smaller, faster LLM (Meta-Llama-3.1-8B-Instruct) for real-time analysis of customer support requests and compare the results to a base model.
+    long_description_html: |
+      The AMP demonstrates knowledge distillation to address  the challenge of improving the accuracy and speed of a customer support LLM while adhering to data privacy constraints. By leveraging synthetic data generation and fine-tuning techniques, we demonstrate how to train a smaller, faster LLM (Meta-Llama-3.1-8B-Instruct) for real-time analysis of customer support requests and compare the results to a base model.
+      <div style="margin-top:10px"><b>IMPORTANT:</b> Please read the following before proceeding.</div>
+      <div style="margin-top:10px">This AMP includes or otherwise depends on certain third party software packages.  Information about such third party software packages are made available in the notice file associated with this AMP.  By configuring and launching this AMP, you will cause such third party software packages to be downloaded and installed into your environment, in some instances, from third parties' websites.  For each third party software package, please see the notice file and the applicable websites for more information, including the applicable license terms.</div>
+      <div style="margin-top:10px">If you do not wish to download and install the third party software packages, do not configure, launch or otherwise use this AMP.  By configuring, launching or otherwise using the AMP, you acknowledge the foregoing statement and agree that Cloudera is not responsible or liable in any way for the third party software packages.</div>
+    image_path: >-
+      https://raw.githubusercontent.com/cloudera/CML_AMP_Knowledge_Distillation_With_Private_Data/refs/heads/master/assets/DistillationFromLargerBotToaSmallerOne.jpg
+    tags:
+      - Synthetic data
+      - Finetuning
+      - Inference
+      - Private data
+      - Knowledge Distillation
+      - Customer support
+    git_url: "https://github.com/cloudera/CML_AMP_Knowledge_Distillation_With_Private_Data.git"
+    is_prototype: true
+    is_new: true
+
   - title: Medical Reasoning
     label: medical-reasoning
     short_description: |
