@@ -1,24 +1,24 @@
 name: Cloudera
 
 entries:    
-  - title: Medical Reasoning
+  - title: Build Medical Reasoning Model Using Reinforcement Learning with GRPO
     label: medical-reasoning
     short_description: |
-    AMP demonstrating reasoning for medical applications using GRPO Reinforcement Learning within Cloudera AI
+      AMP demonstrating reasoning for medical applications using GRPO Reinforcement Learning within Cloudera AI
     long_description: |
-    A notebook AMP that demonstrates how to build your own medical reasoning model by using Unsloth and other fine tuning libraries to fine tune an LLM for reasoning using the GRPO RL algorithm in Cloudera AI workbench.
-    long_description_html: |
-    <div style="margin-top:10px"><b>Reinforcement Learning Fine-Tuning with GRPO for Medical Reasoning</b></div>
-    <div style="margin-top:10px">This AMP includes or otherwise depends on certain third party software packages. Information about such third party software packages are made available in the AMP.</div>
-    <div style="margin-top:10px">If you do not wish to download and install the third party software packages, do not configure, launch or otherwise use this AMP. By configuring, launching or otherwise using the AMP, you acknowledge that you have read and understood the third party license terms.</div>
+      A notebook AMP that demonstrates how to build your own medical reasoning model by using Unsloth and other fine tuning libraries to fine tune an LLM for reasoning using the GRPO RL algorithm in Cloudera AI workbench.
+      long_description_html: |
+      <div style="margin-top:10px"><b>Reinforcement Learning Fine-Tuning with GRPO for Medical Reasoning</b></div>
+      <div style="margin-top:10px">This AMP includes or otherwise depends on certain third party software packages. Information about such third party software packages are made available in the AMP.</div>
+      <div style="margin-top:10px">If you do not wish to download and install the third party software packages, do not configure, launch or otherwise use this AMP. By configuring, launching or otherwise using the AMP, you acknowledge that you have read and understood the third party license terms.</div>
     image_path: >-
       https://raw.githubusercontent.com/kaushikreddy/Med_Reasoning_AMP/refs/heads/main/assets/images/med-reasoning-banner.png
     tags:
-    - LLM
-    - Reinforcement Learning
-    - Medical Reasoning
-    - GRPO
-    - Fine-Tuning
+      - GRPO
+      - Reinforcement Learning
+      - Medical Reasoning
+      - LLM
+      - Fine-Tuning
     git_url: "https://github.com/cloudera/CML_AMP_Med_Reasoning"
     git_ref: "main"
     is_prototype: true
