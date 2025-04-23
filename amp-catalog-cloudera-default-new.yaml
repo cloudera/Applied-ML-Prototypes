@@ -25,7 +25,7 @@ entries:
     is_prototype: true
     is_new: true
 
-  - title: Medical Reasoning
+  - title: Build Medical Reasoning Model Using Reinforcement Learning with GRPO
     label: medical-reasoning
     short_description: |
       AMP demonstrating reasoning for medical applications using GRPO Reinforcement Learning within Cloudera AI
@@ -38,10 +38,10 @@ entries:
     image_path: >-
       https://raw.githubusercontent.com/kaushikreddy/Med_Reasoning_AMP/refs/heads/main/assets/images/med-reasoning-banner.png
     tags:
-      - LLM
+      - GRPO
       - Reinforcement Learning
       - Medical Reasoning
-      - GRPO
+      - LLM
       - Fine-Tuning
     git_url: "https://github.com/cloudera/CML_AMP_Med_Reasoning"
     git_ref: "main"
