@@ -25,7 +25,7 @@ entries:
     is_prototype: true
     is_new: true
 
-  - title: Build Medical Reasoning Model Using Reinforcement Learning with GRPO
+  - title: Build Medical Reasoning Model Using RL with GRPO
     label: medical-reasoning
     short_description: |
       AMP demonstrating reasoning for medical applications using GRPO Reinforcement Learning within Cloudera AI
