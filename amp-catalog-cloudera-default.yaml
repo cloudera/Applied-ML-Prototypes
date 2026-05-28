@@ -18,7 +18,7 @@ entries:
       - Knowledge-Graph
       - GenAI
     git_url: "https://github.com/cloudera/CML_AMP_Knowledge_Graph_Backed_RAG"
-    is_prototype: true
+    is_prototype: false
     is_new: true
 
   - title: Fine Tuning Studio
